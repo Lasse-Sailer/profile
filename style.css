@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url(fonts/Satoshi-Variable.ttf);
+}
+
+body {
+  background-color:#F7F9FC;
+  color:#ffffff;
+  font-family: 'Satoshi';
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-family: 'Satoshi';
+  color: ECB365
+}
+
+#subtitle  {
+  font-family: 'Satoshi';
+  color:#fff;
+}
+
+.list-links  {
+  display: inline;
+  margin-left: 5px;
+  list-style-type: none;
+}
+
+ul  {
+  padding: 0;
+  list-style-type: none;
+}
+
+ol  {
+  padding: 0;
+  list-style-type: none;
+}
+
+#profile-picture  {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+#link-button  {
+  border-radius: 4px;
+  color:#95aec6;
+  background-color: rgb(55, 62, 73);
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+}
+
+a  {
+  text-decoration: none;
+}
+
+#link-button:hover  {
+  background-color:#ECB365;
+  color:#06121d;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: rgba(7, 0, 0, 0.644);
+  padding: 40px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  border: 1px solid rgb(240, 237, 237);
+}
+
+p  {
+  margin:30px;
+  padding: 0;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.Social-Media_icons {
+  border: 2px solid #ffffff;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+}
+.Social-Media_icons:hover {
+  border: 2px solid #ffffff;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* @media (min-aspect_ratio: 16/9){
+  #myVideo{
+    width: 100%;
+    height: auto;
+  }
+} */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
